@@ -5,8 +5,8 @@ Script para de banco de dados MySQL com Docker de forma independente de outras i
 
 ## Utilização do Script de criação de aplicação APP e Github repositório 
 1. git clone https://github.com/mfabiodias/mysql_docker.git
-2. Comando para start: 
-- docker-compose up -d 
+2. cd mysql_docker
+3. docker-compose up -d 
 
 ## Dados de conexão rodando sua imagem local
 - HOST: 127.0.0.1
